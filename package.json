@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "description": "Starlight component to display the Starlight Sidebar Topics plugin topic list as a dropdown menu.",
-  "homepage": "https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown",
+  "homepage": "https://github.com/trueberryless/starlight-sidebar-topics-dropdown",
   "bugs": {
-    "url": "https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown/issues"
+    "url": "https://github.com/trueberryless/starlight-sidebar-topics-dropdown/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown.git"
+    "url": "https://github.com/trueberryless/starlight-sidebar-topics-dropdown.git"
   },
   "license": "MIT",
   "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",

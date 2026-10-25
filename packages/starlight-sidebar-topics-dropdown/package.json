@@ -14,11 +14,11 @@
   ],
   "homepage": "https://starlight-sidebar-topics-dropdown.netlify.app/",
   "bugs": {
-    "url": "https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown/issues"
+    "url": "https://github.com/trueberryless/starlight-sidebar-topics-dropdown/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown.git",
+    "url": "https://github.com/trueberryless/starlight-sidebar-topics-dropdown.git",
     "directory": "packages/starlight-sidebar-topics-dropdown"
   },
   "license": "MIT",

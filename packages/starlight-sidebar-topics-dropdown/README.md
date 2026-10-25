@@ -12,4 +12,4 @@ Check out the [getting started guide](https://starlight-sidebar-topics-dropdown.
 
 Licensed under the MIT license, Copyright © trueberryless.
 
-See [LICENSE](https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/trueberryless/starlight-sidebar-topics-dropdown/blob/main/LICENSE) for more information.

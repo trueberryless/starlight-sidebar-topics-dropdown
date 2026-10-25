@@ -7,23 +7,16 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
+      issues: write # Required for 'gh label create/delete' operations
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub App token
-        id: generate_token
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
-        with:
-          client-id: ${{ secrets.BOT_APP_ID }}
-          private-key: ${{ secrets.BOT_PRIVATE_KEY }}
-
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          token: ${{ steps.generate_token.outputs.token }}
           persist-credentials: false
 
       - name: Ensure labels exist
         env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh label delete "bug" --yes || true
           gh label delete "documentation" --yes || true
@@ -54,5 +47,6 @@ jobs:
 
       - uses: actions/labeler@bf12e9b00b37c5c0ca2b87b79b2daf7891dbda13 # v7.0.0
         with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           configuration-path: .github/labeler.yaml
           sync-labels: true

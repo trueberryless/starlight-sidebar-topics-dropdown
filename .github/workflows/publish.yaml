@@ -42,17 +42,10 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Generate GitHub App token
-        id: generate_token
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
-        with:
-          client-id: ${{ secrets.BOT_APP_ID }}
-          private-key: ${{ secrets.BOT_PRIVATE_KEY }}
-
       - name: Checkout Repo
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          token: ${{ steps.generate_token.outputs.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
       - name: Setup PNPM
@@ -74,12 +67,14 @@ jobs:
           version-script: pnpm run version
           commit-message: "ci: release"
           pr-title: "ci: release [skip netlify]"
-          github-token: ${{ steps.generate_token.outputs.token}}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           push-with-git-cli: true
 
       - name: Get published version
         if: steps.changesets.outputs.has-changesets == 'true'
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout changeset-release/main
           VERSION=$(node -p "require('./packages/starlight-sidebar-topics-dropdown/package.json').version")
           NAME=$(node -p "require('./packages/starlight-sidebar-topics-dropdown/package.json').name")

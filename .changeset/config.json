@@ -2,7 +2,7 @@
   "$schema": "https://unpkg.com/@changesets/config@4.0.0/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "trueberryless-org/starlight-sidebar-topics-dropdown" }
+    { "repo": "trueberryless/starlight-sidebar-topics-dropdown" }
   ],
   "commit": false,
   "fixed": [],
