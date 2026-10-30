@@ -36,7 +36,7 @@ export default defineConfig({
       customCss: ["./src/styles/custom.css"],
       editLink: {
         baseUrl:
-          "https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown/edit/main/docs/",
+          "https://github.com/trueberryless/starlight-sidebar-topics-dropdown/edit/main/docs/",
       },
       components: {
         Footer: "./src/components/Footer.astro",
@@ -133,7 +133,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown",
+          href: "https://github.com/trueberryless/starlight-sidebar-topics-dropdown",
         },
       ],
     }),
