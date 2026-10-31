@@ -10,7 +10,7 @@ Run the documentation locally by running `pnpm dev` or visit the [documentation 
 
 ## Package
 
-If you are looking for the Starlight component package, you can find it in the [`packages/starlight-sidebar-topics-dropdown/`](https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown/tree/main/packages/starlight-sidebar-topics-dropdown) directory.
+If you are looking for the Starlight component package, you can find it in the [`packages/starlight-sidebar-topics-dropdown/`](https://github.com/trueberryless/starlight-sidebar-topics-dropdown/tree/main/packages/starlight-sidebar-topics-dropdown) directory.
 
 ## Project structure
 
@@ -20,4 +20,4 @@ This project uses pnpm workspaces to develop a single Starlight component from t
 
 Licensed under the MIT License, Copyright © trueberryless.
 
-See [LICENSE](https://github.com/trueberryless-org/starlight-sidebar-topics-dropdown/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/trueberryless/starlight-sidebar-topics-dropdown/blob/main/LICENSE) for more information.
