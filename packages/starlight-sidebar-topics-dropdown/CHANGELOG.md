@@ -1,5 +1,11 @@
 # starlight-sidebar-topics-dropdown
 
+## 0.7.1
+
+### Patch Changes
+
+- [#138](https://github.com/trueberryless/starlight-sidebar-topics-dropdown/pull/138) [`53c2e25`](https://github.com/trueberryless/starlight-sidebar-topics-dropdown/commit/53c2e255ff5e3b742eee8037ee87ae93f0d978e8) Thanks [@trueberryless-bot](https://github.com/trueberryless-bot)! - Updates the repository links after the move from the `trueberryless-org` GitHub organization to the `trueberryless` account.
+
 ## 0.7.0
 
 ### Minor Changes
