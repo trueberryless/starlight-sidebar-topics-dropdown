@@ -66,7 +66,7 @@ jobs:
         with:
           version-script: pnpm run version
           commit-message: "ci: release"
-          pr-title: "ci: release [skip netlify]"
+          pr-title: "ci: release"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-with-git-cli: true
 
