@@ -42,8 +42,8 @@ importers:
         specifier: ^0.5.0
         version: 0.5.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
       '@trueberryless/starlight-plugins-docs-components':
-        specifier: ^0.7.0
-        version: 0.7.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
+        specifier: ^0.7.2
+        version: 0.7.2(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
       astro:
         specifier: ^7.3.5
         version: 7.3.5(@types/node@25.0.3)(yaml@2.9.0)
@@ -1096,8 +1096,8 @@ packages:
       svelte:
         optional: true
 
-  '@trueberryless/starlight-plugins-docs-components@0.7.0':
-    resolution: {integrity: sha512-MAMHaJQB7173GjWQ0d1KDh1JgYuvRMVMMp6DVZ0Wxe+KTklNKLziF+eddu0BzFLc65yeATQml5twHv/Udrrk0Q==}
+  '@trueberryless/starlight-plugins-docs-components@0.7.2':
+    resolution: {integrity: sha512-s3BBpIJur0wKhtZVM8hpRMghB+UYj7esF5OrMzSbnH7p8mKABcKFZQGHGXQzVergmbnF00OzPt4DFOVRFrkt2g==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       '@astrojs/starlight': '>=0.42.0'
@@ -3482,7 +3482,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@trueberryless/starlight-plugins-docs-components@0.7.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))':
+  '@trueberryless/starlight-plugins-docs-components@0.7.2(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))':
     dependencies:
       '@astrojs/starlight': 0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
       '@hideoo/starlight-plugins-docs-components': 0.5.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
