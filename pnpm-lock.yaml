@@ -41,9 +41,9 @@ importers:
       '@hideoo/starlight-plugins-docs-components':
         specifier: ^0.5.0
         version: 0.5.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
-      '@trueberryless-org/starlight-plugins-docs-components':
-        specifier: ^0.6.0
-        version: 0.6.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
+      '@trueberryless/starlight-plugins-docs-components':
+        specifier: ^0.7.0
+        version: 0.7.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
       astro:
         specifier: ^7.3.5
         version: 7.3.5(@types/node@25.0.3)(yaml@2.9.0)
@@ -694,12 +694,6 @@ packages:
   '@expressive-code/plugin-text-markers@0.44.0':
     resolution: {integrity: sha512-0/m3A5b+lz2upyNq+wzZ1S69HRoJmyFs5LsR42lVZ9pmGRlBiSBYQpvqlji4DBj1+Riamxc0AvcCr5kuzOQeWA==}
 
-  '@hideoo/starlight-plugins-docs-components@0.4.2':
-    resolution: {integrity: sha512-Sgq4HgNsrL/t/D7RjkbD+eLnyqXGdTSq+mW91K3BfI3HVYnwvR/uuBKiSJGcQ7gxf7SUiD0UDz3Jsv0SeCPK4A==}
-    engines: {node: '>=22'}
-    peerDependencies:
-      '@astrojs/starlight': '>=0.38.0'
-
   '@hideoo/starlight-plugins-docs-components@0.5.0':
     resolution: {integrity: sha512-lHgu0GfBjwe9d9d5Zem4Sln+Qf0NWLGmB2r1PT2J7fdnHKpVK9FOpda3ynrZhyUFIcCvqfRuIjtNPPAGlFOaGA==}
     peerDependencies:
@@ -1102,11 +1096,11 @@ packages:
       svelte:
         optional: true
 
-  '@trueberryless-org/starlight-plugins-docs-components@0.6.0':
-    resolution: {integrity: sha512-e1HQscnxr54QsVYxZBEAwgkfkYHIE3I3vx2Qi1eCUu/clr/Gv4AzP5cVfoAS88BSDV3bIHgA0MPIAlJ8iRIahw==}
+  '@trueberryless/starlight-plugins-docs-components@0.7.0':
+    resolution: {integrity: sha512-MAMHaJQB7173GjWQ0d1KDh1JgYuvRMVMMp6DVZ0Wxe+KTklNKLziF+eddu0BzFLc65yeATQml5twHv/Udrrk0Q==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
-      '@astrojs/starlight': '>=0.38'
+      '@astrojs/starlight': '>=0.42.0'
 
   '@tybys/wasm-util@0.10.3':
     resolution: {integrity: sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==}
@@ -1293,9 +1287,6 @@ packages:
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
-
-  change-case@5.4.4:
-    resolution: {integrity: sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==}
 
   character-entities-html4@2.1.0:
     resolution: {integrity: sha512-1v7fgQRj6hnSwFpq1Eu0ynr/CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA==}
@@ -2144,12 +2135,6 @@ packages:
     peerDependencies:
       '@astrojs/starlight': '>=0.42.0'
       astro: '>=7.2.10'
-
-  starlight-package-managers@0.12.0:
-    resolution: {integrity: sha512-hAIVzOT0/Git+T2Uwckh2rs51fYiDM6/X+Z2f3LtKMSwOwm+nSUAX2Ilp7k+07LDtxYjmvfTCxhfIBt0PgOF5g==}
-    engines: {node: '>=18.17.1'}
-    peerDependencies:
-      '@astrojs/starlight': '>=0.22.0'
 
   starlight-package-managers@0.13.0:
     resolution: {integrity: sha512-Jcvx7oLA2hWlNMsYI42Ny5vZ0lZov18M/0+aiXmY59Wo+GmhTjJPRpGEbIN0yJsGLoJPFTegcMArjNVU0SvROQ==}
@@ -3209,12 +3194,6 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.44.0
 
-  '@hideoo/starlight-plugins-docs-components@0.4.2(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))':
-    dependencies:
-      '@astrojs/starlight': 0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
-      starlight-package-managers: 0.12.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
-      starlight-showcases: 0.3.2(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
-
   '@hideoo/starlight-plugins-docs-components@0.5.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))':
     dependencies:
       '@astrojs/starlight': 0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
@@ -3503,11 +3482,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@trueberryless-org/starlight-plugins-docs-components@0.6.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))':
+  '@trueberryless/starlight-plugins-docs-components@0.7.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))':
     dependencies:
       '@astrojs/starlight': 0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
-      '@hideoo/starlight-plugins-docs-components': 0.4.2(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
-      change-case: 5.4.4
+      '@hideoo/starlight-plugins-docs-components': 0.5.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
       starlight-showcases: 0.3.2(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))
 
   '@tybys/wasm-util@0.10.3':
@@ -3776,8 +3754,6 @@ snapshots:
   cac@7.0.0: {}
 
   ccount@2.0.1: {}
-
-  change-case@5.4.4: {}
 
   character-entities-html4@2.1.0: {}
 
@@ -4813,10 +4789,6 @@ snapshots:
       yaml: 2.9.0
     transitivePeerDependencies:
       - supports-color
-
-  starlight-package-managers@0.12.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)):
-    dependencies:
-      '@astrojs/starlight': 0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
 
   starlight-package-managers@0.13.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)):
     dependencies:
