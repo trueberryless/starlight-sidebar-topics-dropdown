@@ -9,4 +9,4 @@ allowBuilds:
   sharp: true
   unrs-resolver: false
 minimumReleaseAgeExclude:
-  - '@trueberryless/starlight-plugins-docs-components@0.7.2'
+  - "@trueberryless/starlight-plugins-docs-components@0.7.2"
