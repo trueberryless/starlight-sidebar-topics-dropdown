@@ -29,7 +29,7 @@
     "astro": "^7.3.5",
     "prettier": "3.9.9",
     "prettier-plugin-astro": "1.1.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "packageManager": "pnpm@11.28.0",
   "engines": {
