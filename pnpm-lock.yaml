@@ -48,14 +48,14 @@ importers:
         specifier: ^7.3.5
         version: 7.3.5(@types/node@25.0.3)(yaml@2.9.0)
       astro-contributors:
-        specifier: ^0.9.0
-        version: 0.9.0(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))
+        specifier: ^0.10.1
+        version: 0.10.2(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))
       sharp:
         specifier: ^0.35.4
         version: 0.35.5(@types/node@25.0.3)
       starlight-links-validator:
-        specifier: ^0.26.0
-        version: 0.26.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)
+        specifier: ^0.27.0
+        version: 0.27.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)
       starlight-sidebar-topics:
         specifier: ^0.9.0
         version: 0.9.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))
@@ -1106,9 +1106,6 @@ packages:
   '@types/node@25.0.3':
     resolution: {integrity: sha512-W609buLVRVmeW693xKfzHeIV6nJGGz98uCPfeXI1ELMLXVeKYZ9m15fAMSaUPBHYLGFsVRcMmSCksQOrZV9BYA==}
 
-  '@types/picomatch@4.0.2':
-    resolution: {integrity: sha512-qHHxQ+P9PysNEGbALT8f8YOSHW0KJu6l2xU8DYY0fu/EmGxXdVnuTLvFUvBgPJMSqXq29SYHveejeAha+4AYgA==}
-
   '@types/sax@1.2.7':
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
 
@@ -1209,9 +1206,9 @@ packages:
     resolution: {integrity: sha512-COROpnaoap1E2F000S62r6A60uHZnmlvomhfyT2DlTcrY1OrBKn2UhH7qn5wTC9zMvD0AY7csdPSNwKP+7WiQw==}
     engines: {node: '>= 0.4'}
 
-  astro-contributors@0.9.0:
-    resolution: {integrity: sha512-GIDlHJrQFEMEkvWmZaQj7nKIw4db3CXrP9aJ6pvoJ3/kfw/O5aJt07163AlyLLtyh08hdSWOKJu9ChAvkyKtLA==}
-    engines: {node: '>=22.22.3'}
+  astro-contributors@0.10.2:
+    resolution: {integrity: sha512-DWE5PqnVWZ5nndT0IIXaCBjuLTybkbpahgtrntiLRQI+1tBf6bc9ZRiNKLtiMjjcphL+cntGbz7hNNNZ8/60WA==}
+    engines: {node: '>=22.12.0'}
     peerDependencies:
       astro: ^5.0.0 || ^6.0.0 || ^7.0.0
 
@@ -2072,9 +2069,8 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  starlight-links-validator@0.26.0:
-    resolution: {integrity: sha512-b3JlzP5bczSDMQp10ST/Gldd6RNzcwpWfTrszzGPcqnuav2W31+MjyX92IXH+VCcG2pG9G1qyDcEcNuMRYi2ig==}
-    engines: {node: '>=22.12.0'}
+  starlight-links-validator@0.27.0:
+    resolution: {integrity: sha512-UvPl8L9hfWR+yWbLOEtljLmpJCGcM6AVseVy5IO9dmqdOjW4R+Y8FaYyVA5axCC8RvxM5xU7M1WTerpwU8rYbw==}
     peerDependencies:
       '@astrojs/starlight': '>=0.42.0'
       astro: '>=7.2.10'
@@ -3439,8 +3435,6 @@ snapshots:
       undici-types: 7.16.0
     optional: true
 
-  '@types/picomatch@4.0.2': {}
-
   '@types/sax@1.2.7':
     dependencies:
       '@types/node': 24.12.0
@@ -3545,7 +3539,7 @@ snapshots:
 
   aria-query@5.3.2: {}
 
-  astro-contributors@0.9.0(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0)):
+  astro-contributors@0.10.2(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0)):
     dependencies:
       astro: 7.3.5(@types/node@25.0.3)(yaml@2.9.0)
 
@@ -4664,11 +4658,10 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-links-validator@0.26.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2):
+  starlight-links-validator@0.27.0(@astrojs/starlight@0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3))(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2):
     dependencies:
       '@astrojs/markdown-satteri': 0.4.2
       '@astrojs/starlight': 0.42.4(astro@7.3.5(@types/node@25.0.3)(yaml@2.9.0))(supports-color@10.2.2)(typescript@6.0.3)
-      '@types/picomatch': 4.0.2
       astro: 7.3.5(@types/node@25.0.3)(yaml@2.9.0)
       github-slugger: 2.0.0
       hast-util-from-html: 2.0.3
